@@ -1,0 +1,113 @@
+h1,h2,h3,h4,h5,h6{
+    margin-top:12px;
+    margin-bottom:12px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222222;
+  }
+  
+  form {
+    width: 400px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+   input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ffdd6d;
+    font-size: 16px;
+    color: #222222;
+  }
+  textarea {
+    border: none;
+    border-bottom: 2px solid #ffdd6d;
+    color: #222222;
+  }
+
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ffdd6d;
+    font-size: 16px;
+    color: #222222;
+  }
+  
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid #222222;
+  }
+  
+  label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 16px;
+    color: #999999;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  input:focus ~ label, input:valid ~ label {
+    top: -20px;
+    font-size: 12px;
+    color: #ffa26d;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffdd6d;
+    color: #222222;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  button[type="button"] {
+    background-color: #ffdd6d;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffdd6d;
+  }
+  
+  .signup-link {
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #ffdd6d;
+    text-decoration: none;
+  }
